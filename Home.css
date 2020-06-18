@@ -1,0 +1,138 @@
+.sign {
+	text-decoration: none;
+	color:black;
+	font-size: 26px;
+	text-align: center;
+}
+.menu {
+  background-color: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  position: fixed;
+  top: 10px;
+  left: 1px;
+  width: 50px;
+  height: 45px;
+}
+.open {
+	color: black;
+	background-color: white;
+	width: 240px;
+	height: 40px;
+	border: 0px solid black;
+	font-size: 20px;
+	text-align: left;
+	left: 0px;
+}
+#home::before {
+	content: url(AHome.png);
+}
+#lv::before {
+	content: url(Like.png);
+}
+#trend::before {
+	content: url(Trend.png);
+}
+.open:hover {
+	cursor: pointer;
+}
+#home {
+	position: fixed;
+	top: 75px;
+	background-color: gray;
+}
+#trend {
+	position: fixed;
+	top: 115px;
+}
+#suber {
+	position: fixed;
+	top: 155px;
+}
+#Lib {
+	position: fixed;
+	top: 195px;
+}
+#his::before {
+	content: url(His.png);
+}
+#his {
+	position: fixed;
+	top: 235px;
+}
+#yv {
+	position: fixed;
+	top: 275px;
+}
+#wl {
+	position: fixed;
+	top: 315px;
+}
+#wl::before {
+	content: url(Wl.png);
+}
+#yv::before {
+	content: url(yv.png);
+}
+#lv {
+	position: fixed;
+	top: 355px;
+}
+.close {
+
+}
+.button-search {
+	width: 40px;
+	height: 36px;
+	background-color: transparent;
+	border-radius: 0px;
+	border: 1px solid black;
+	border-left: 0px solid black;
+	cursor: pointer;
+	position: fixed;
+	top: 13px;
+	left: 872px;
+}
+.search {
+	height: 34px;
+	width: 550px;
+	font-size: 24px;
+	position: fixed;
+	left: 320px;
+	top: 13px;
+	border: 1px solid black;
+}
+.Sign:hover {
+	background-color: #34c200;
+}
+.Sign {
+	background-color: #41f000;
+	border-radius: 6px;
+	border: 0px solid;
+	width:150px; 
+	height: 44px;
+	position: fixed;
+	right:220px;
+	cursor: pointer;
+	font-size: 26px;
+}
+.Log:hover {
+	background-color: #dba500;
+}
+.Log {
+	background-color: #FFC618;
+	border-radius: 6px;
+	border: 0px solid;
+	width:150px; 
+	height: 44px;
+	position: fixed;
+	right: 54px;
+	cursor: pointer;
+	font-size: 26px;
+}
+.log {
+	text-decoration: none;
+	color:black;
+	font-size: 26px;
+	text-align: center;
+}
